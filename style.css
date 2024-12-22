@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("styles/header.css");
+@import url("styles/consultas.css");
+
+:root {
+    --font-main: "Montserrat", serif;
+    --background-color: #F9F7FD;
+    --color-title: #464646;
+    --color-subtitle: #A3A3A3;
+    --color-consulta-background: #FFFFFF;
+    --color-consulta-border: #ECECEC;
+    --color-botao-primaria: #FFB050;
+    --color-botao-secundaria: #4894FF;
+
+
+}
+
+body {
+    background-color: var(--background-color);
+}

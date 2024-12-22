@@ -1,0 +1,32 @@
+.perfil {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 32px 0px 22px 16px;
+
+}
+
+.perfil__imagem {
+    width: 57px;
+    height: 57px;
+    border-radius: 50px;
+}
+
+.perfil__container {
+    font-family: var(--font-main);
+}
+
+.perfil__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-title);
+    padding: 5px 0px;
+}
+
+.perfil__detalhes-consultas {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-subtitle);
+    padding: 2px 0px;
+}
+
