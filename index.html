@@ -2,10 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Clínica</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
         </div>
     </header>
     <main>
-        <div class="consultas">
+        <section class="consultas">
             <p class="consultas__data">Hoje</p>
 
             <div class="consultas__remota consultas__card">
@@ -33,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">14:00 - 15:00 (1 hora)</p>
@@ -55,7 +56,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">16:00 - 17:00 (1 hora)</p>
@@ -76,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">17:20 - 18:00 (40 minutos)</p>
@@ -100,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">18:00 - 19:00 - (1 hora)</p>
@@ -121,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">14:00 - 15:00 (1 hora)</p>
@@ -143,7 +144,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">17:20 - 18:00 (40 minutos)</p>
@@ -165,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">16:00 - 17:00 (1 hora)</p>
@@ -188,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">18:00 - 19:00 - (1 hora)</p>
@@ -209,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">14:00 - 15:00 (1 hora)</p>
@@ -231,7 +232,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">17:20 - 18:00 (40 minutos)</p>
@@ -253,7 +254,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="assets/Chatcirculo1.svg" alt="imagem chat">
+                    <a href=""><img src="assets/Chatcirculo1.svg" alt="imagem chat"></a>
                 </div>
                 <hr class="consultas__divisor"/>
                 <p class="consultas__horario">16:00 - 17:00 (1 hora)</p>
@@ -262,14 +263,35 @@
                 </div>
             </div>
 
+        </section>
 
-
-            
-        
-        </div>
         
     </main>
-    <footer></footer>
-    
+
+    <footer class="rodape">
+        <div class="menus">
+            <a href="#" class="menus__menu">
+                <img src="assets/calendario.png" alt="Imagem calendario" class="menus__menu__icone">
+                <span class="menus__menu__texto">Consultas</span>
+            </a>
+            <a href="#" class="menus__menu">
+                <img src="assets/clientes_icone.svg" alt="Imagem calendario" class="menus__menu__icone">
+                <span class="menus__menu__texto">Clientes</span>
+            </a>
+            <a href="#" class="menus__menu">
+                <img src="assets/relatorios_icone.svg" alt="Imagem calendario" class="menus__menu__icone">
+                <span class="menus__menu__texto">Relatórios</span>
+            </a>
+            <a href="#" class="menus__menu">
+                <img src="assets/menu icone.svg" alt="Imagem calendario" class="menus__menu__icone">
+                <span class="menus__menu__texto">Menu</span>
+            </a>
+        </div>
+        <div class="blackscreen"></div>
+        <a href="#" class="button button_adicionar"><img src="assets/maisicone.svg" alt=""></a>
+        <a href="#" class="button button_consulta-local"><img src="assets/pinfabiconee.png" alt=""></a>
+        <a href="#" class="button button_consulta-video"><img src="assets/Camerafab.png" alt=""></a>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
