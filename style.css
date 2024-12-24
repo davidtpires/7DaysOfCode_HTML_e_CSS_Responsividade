@@ -20,4 +20,8 @@
 body {
     background-color: var(--background-color);
     padding-bottom: 70px;
+    min-width: 328px; 
+    max-width: 1440px;
+    margin: auto;
+
 }

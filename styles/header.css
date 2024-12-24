@@ -17,16 +17,39 @@
 }
 
 .perfil__titulo {
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     color: var(--color-title);
     padding: 5px 0px;
 }
 
 .perfil__detalhes-consultas {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 400;
     color: var(--color-subtitle);
     padding: 2px 0px;
+}
+
+
+@media screen and (min-width: 765px) {
+
+
+}
+
+@media screen and (min-width: 1435px) {
+
+    .perfil__imagem {
+        width: 96px;
+        height: 96px;
+    }
+
+    .perfil__titulo {
+        font-size: 1.9375em;
+    }
+
+    .perfil__detalhes-consultas {
+        font-size: 1.125em;
+    }
+
 }
 

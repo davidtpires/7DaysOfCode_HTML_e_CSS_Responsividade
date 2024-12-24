@@ -35,7 +35,7 @@
 .menus__menu__texto{
     font-family: var(--font-main);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75em;
     color: var(--color-title);
 }
 
@@ -94,11 +94,14 @@
     display: block;
 }
 
-.button_consulta-video {
+@media screen and (min-width: 765px) {
+
 
 }
 
+@media screen and (min-width: 1435px) {
 
 
+}
 
 
