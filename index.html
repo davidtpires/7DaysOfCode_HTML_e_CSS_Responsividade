@@ -396,6 +396,57 @@
         <a href="#" class="button button_adicionar"><img src="assets/maisicone.svg" alt=""></a>
         <a href="#" class="button button_consulta-local"><img src="assets/pinfabiconee.png" alt=""></a>
         <a href="#" class="button button_consulta-video"><img src="assets/Camerafab.png" alt=""></a>
+        <a href="#" class="button_cadastrar_consulta">Cadastrar Consulta</a>
+        <div class="formulario__container">
+            <button class="formulario__fechar" aria-label="Fechar">✖</button>
+            <span class="formulario__titulo">Cadastro de consulta</span>
+            <form class="formulario__form">
+                <div class="formulario__div">
+                    <label for="nome" class="formulario__label">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" class="formulario__input" required>
+                </div>
+                <div class="formulario__div">
+                    <label for="tipo_consulta" class="formulario__label">Consulta</label>
+                    <select id="tipo_consulta" name="tipo_consulta" class="formulario__select" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Local</option>
+                        <option>Remoto</option>
+                    </select>
+                </div>
+                <div class="formulario__div">
+                    <label for="data" class="formulario__label">Data</label>
+                    <input type="date" id="data" name="data" class="formulario__input"  required>
+                </div>
+                <div class="formulario__div">
+                    <label for="tipo_consulta" class="formulario__label">Horário</label>
+                    <select id="tipo_consulta" name="tipo_consulta" class="formulario__select"  required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>09:00</option>
+                        <option>09:30</option>
+                        <option>10:00</option>
+                        <option>10:30</option>
+                        <option>13:00</option>
+                        <option>13:30</option>
+                        <option>14:00</option>
+                        <option>14:30</option>
+                        <option>15:00</option>
+                        <option>15:30</option>
+                        <option>16:00</option>
+                        <option>16:30</option>
+                        <option>17:00</option>
+                    </select>
+                </div>
+                <div class="formulario__div">
+                    <label for="observacao" class="formulario__label" >Observação</label>
+                    <textarea row="6" id="observacao" name="observacao" class="formulario__observacao"></textarea>
+                </div>
+                <div>
+                    <button type="reset" class="formulario__botao-cancelar">Cancelar</button>
+                    <button type="submit" class="formulario__botao-confirmar">Confirmar</button>
+                </div>
+                
+            </form>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
